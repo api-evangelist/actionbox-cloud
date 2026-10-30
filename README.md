@@ -64,5 +64,159 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-actionbox-cloud is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://actionbox.cloud/
+ActionBox provides a server‑authoritative human decision layer for automation and AI agents, offering a durable Human Approval API that lets developers add typed approval gates to scripts, CI/CD pipelines, and background jobs. The platform includes an inbox for reviewers, Slack integration, a mobile app, and robust webhook callbacks, enabling secure, auditable human‑in‑the‑loop workflows.
+
+**Areas:** AI · Human-in-the-loop · Automation · Approval · Cloud
+
+## actionbox-cloud on APIs.io
+
+Everything profiled for actionbox-cloud is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/actionbox-cloud/](https://apis.io/providers/actionbox-cloud/)** — or go straight to one of the APIs or properties below.
+
+### APIs (17)
+
+- [actionbox-cloud Account API](https://apis.io/apis/actionbox-cloud/actionbox-cloud-account-api/) — The account API from actionbox-cloud — 2 operation(s) for account.
+- [actionbox-cloud Actions API](https://apis.io/apis/actionbox-cloud/actionbox-cloud-actions-api/) — The actions API from actionbox-cloud — 21 operation(s) for actions.
+- [actionbox-cloud Analytics API](https://apis.io/apis/actionbox-cloud/actionbox-cloud-analytics-api/) — The analytics API from actionbox-cloud — 2 operation(s) for analytics.
+- [actionbox-cloud Auth API](https://apis.io/apis/actionbox-cloud/actionbox-cloud-auth-api/) — The auth API from actionbox-cloud — 22 operation(s) for auth.
+- [actionbox-cloud Billing API](https://apis.io/apis/actionbox-cloud/actionbox-cloud-billing-api/) — The billing API from actionbox-cloud — 4 operation(s) for billing.
+- [actionbox-cloud Dashboard API](https://apis.io/apis/actionbox-cloud/actionbox-cloud-dashboard-api/) — The dashboard API from actionbox-cloud — 1 operation(s) for dashboard.
+- [actionbox-cloud Devices API](https://apis.io/apis/actionbox-cloud/actionbox-cloud-devices-api/) — The devices API from actionbox-cloud — 3 operation(s) for devices.
+- [actionbox-cloud Documentation API](https://apis.io/apis/actionbox-cloud/actionbox-cloud-documentation-api/) — The documentation API from actionbox-cloud — 1 operation(s) for documentation.
+- [actionbox-cloud Feedback API](https://apis.io/apis/actionbox-cloud/actionbox-cloud-feedback-api/) — The feedback API from actionbox-cloud — 1 operation(s) for feedback.
+- [actionbox-cloud Notifications API](https://apis.io/apis/actionbox-cloud/actionbox-cloud-notifications-api/) — The notifications API from actionbox-cloud — 6 operation(s) for notifications.
+- [actionbox-cloud Runs API](https://apis.io/apis/actionbox-cloud/actionbox-cloud-runs-api/) — The runs API from actionbox-cloud — 5 operation(s) for runs.
+- [actionbox-cloud Slack API](https://apis.io/apis/actionbox-cloud/actionbox-cloud-slack-api/) — The slack API from actionbox-cloud — 10 operation(s) for slack.
+- [actionbox-cloud Sources API](https://apis.io/apis/actionbox-cloud/actionbox-cloud-sources-api/) — The sources API from actionbox-cloud — 5 operation(s) for sources.
+- [actionbox-cloud System API](https://apis.io/apis/actionbox-cloud/actionbox-cloud-system-api/) — The system API from actionbox-cloud — 4 operation(s) for system.
+- [actionbox-cloud Watches API](https://apis.io/apis/actionbox-cloud/actionbox-cloud-watches-api/) — The watches API from actionbox-cloud — 16 operation(s) for watches.
+- [actionbox-cloud Webhooks API](https://apis.io/apis/actionbox-cloud/actionbox-cloud-webhooks-api/) — The webhooks API from actionbox-cloud — 4 operation(s) for webhooks.
+- [actionbox-cloud Workspaces API](https://apis.io/apis/actionbox-cloud/actionbox-cloud-workspaces-api/) — The workspaces API from actionbox-cloud — 18 operation(s) for workspaces.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Actionbox Cloud Agentic Access](https://apis.io/agentic-access/actionbox-cloud/actionbox-cloud-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ActionCreate](https://apis.io/schemas/actionbox-cloud/actionbox-cloud-action-create/)
+- [ActionPatch](https://apis.io/schemas/actionbox-cloud/actionbox-cloud-action-patch/)
+- [DecisionRequest](https://apis.io/schemas/actionbox-cloud/actionbox-cloud-decision-request/)
+- [NotificationPreferenceUpdate](https://apis.io/schemas/actionbox-cloud/actionbox-cloud-notification-preference-update/)
+- [ResolveRequest](https://apis.io/schemas/actionbox-cloud/actionbox-cloud-resolve-request/)
+- [UserWatchCreate](https://apis.io/schemas/actionbox-cloud/actionbox-cloud-user-watch-create/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Actionbox Cloud Context](https://apis.io/jsonld/actionbox-cloud/actionbox-cloud-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [actionbox-cloud API Rules](https://apis.io/rules/actionbox-cloud/actionbox-cloud-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Actionbox Cloud Authentication](https://apis.io/security/actionbox-cloud/actionbox-cloud-authentication/)
+- [Actionbox Cloud Domain Security](https://apis.io/security/actionbox-cloud/actionbox-cloud-domain-security/)
+- [Actionbox Cloud Vulnerability Disclosure](https://apis.io/security/actionbox-cloud/actionbox-cloud-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Actionbox Cloud Scopes](https://apis.io/scopes/actionbox-cloud/actionbox-cloud-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Actionbox Cloud Plans Pricing](https://apis.io/plans/actionbox-cloud/actionbox-cloud-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Actionbox Cloud Rate Limits](https://apis.io/rate-limits/actionbox-cloud/actionbox-cloud-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://actionbox.cloud/)
+- [Documentation](https://actionbox.cloud/docs)
+- [Getting started](https://actionbox.cloud/docs)
+- [API reference](https://actionbox.cloud/human-approval-api)
+- [Pricing](https://actionbox.cloud/pricing)
+- [Blog](https://actionbox.cloud/blog/)
+- [Security](https://actionbox.cloud/blog/tags/security/)
+- [Terms of service](https://actionbox.cloud/terms)
+- [Privacy policy](https://actionbox.cloud/privacy)
+- [Status](https://actionbox.cloud/status)
+
+## API Evangelist rating
+
+**Kin Score 60.2** — strong · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 56.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 34.2 |
+| Developer ergonomics | 80.2 |
+| Access clarity | 31.6 |
+
+**Agent readiness 60.1** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | flavored (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 37.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/actionbox-cloud/](https://apis.io/providers/actionbox-cloud/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for actionbox-cloud: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/actionbox-cloud/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
