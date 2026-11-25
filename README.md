@@ -66,7 +66,7 @@
 
 ActionBox provides a server‑authoritative human decision layer for automation and AI agents, offering a durable Human Approval API that lets developers add typed approval gates to scripts, CI/CD pipelines, and background jobs. The platform includes an inbox for reviewers, Slack integration, a mobile app, and robust webhook callbacks, enabling secure, auditable human‑in‑the‑loop workflows.
 
-**Areas:** AI · Human-in-the-loop · Automation · Approval · Cloud
+**Areas:** Artificial Intelligence · Human-in-the-Loop · Automation · Approval · Cloud
 
 ## actionbox-cloud on APIs.io
 
@@ -96,22 +96,48 @@ Everything profiled for actionbox-cloud is published on APIs.io rather than in t
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [actionbox-cloud-mcp.yml](https://apis.io/servers/actionbox-cloud/actionbox-cloud-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Actionbox Cloud Agentic Access](https://apis.io/agentic-access/actionbox-cloud/actionbox-cloud-agentic-access/)
+- [actionbox-cloud Agentic Access](https://apis.io/agentic-access/actionbox-cloud/actionbox-cloud-agentic-access/)
 
-#### JSON Schema (6)
+#### JSON Schema (32)
 
 The data models the API reads and writes.
 
+- [AccountDeleteRequest](https://apis.io/schemas/actionbox-cloud/actionbox-cloud-account-delete-request/)
 - [ActionCreate](https://apis.io/schemas/actionbox-cloud/actionbox-cloud-action-create/)
 - [ActionPatch](https://apis.io/schemas/actionbox-cloud/actionbox-cloud-action-patch/)
+- [AnalyticsEventRequest](https://apis.io/schemas/actionbox-cloud/actionbox-cloud-analytics-event-request/)
+- [AppleAuthorizationCodeLoginRequest](https://apis.io/schemas/actionbox-cloud/actionbox-cloud-apple-authorization-code-login-request/)
+- [Body_workspace_audit_verify_checkpoint_endpoint_v1_workspaces_audit_events_integrity_verify_post](https://apis.io/schemas/actionbox-cloud/actionbox-cloud-body-workspace-audit-verify-checkpoint-endpoint-v1-workspaces-audit-events-integrity-verify-post/)
+- [CheckoutRequest](https://apis.io/schemas/actionbox-cloud/actionbox-cloud-checkout-request/)
+- [CodeInput](https://apis.io/schemas/actionbox-cloud/actionbox-cloud-code-input/)
 - [DecisionRequest](https://apis.io/schemas/actionbox-cloud/actionbox-cloud-decision-request/)
+- [DeviceCreate](https://apis.io/schemas/actionbox-cloud/actionbox-cloud-device-create/)
+- [DeviceHeartbeat](https://apis.io/schemas/actionbox-cloud/actionbox-cloud-device-heartbeat/)
+- [GroupMembersReplace](https://apis.io/schemas/actionbox-cloud/actionbox-cloud-group-members-replace/)
+- [GroupRename](https://apis.io/schemas/actionbox-cloud/actionbox-cloud-group-rename/)
+- [InvitationCreate](https://apis.io/schemas/actionbox-cloud/actionbox-cloud-invitation-create/)
+- [LinkInput](https://apis.io/schemas/actionbox-cloud/actionbox-cloud-link-input/)
+- [ManagedPolicyCreate](https://apis.io/schemas/actionbox-cloud/actionbox-cloud-managed-policy-create/)
+- [ManagedPolicyUpdate](https://apis.io/schemas/actionbox-cloud/actionbox-cloud-managed-policy-update/)
+- [NativeAppleLoginRequest](https://apis.io/schemas/actionbox-cloud/actionbox-cloud-native-apple-login-request/)
+- [NativeGoogleLoginRequest](https://apis.io/schemas/actionbox-cloud/actionbox-cloud-native-google-login-request/)
 - [NotificationPreferenceUpdate](https://apis.io/schemas/actionbox-cloud/actionbox-cloud-notification-preference-update/)
+- [PasskeyInput](https://apis.io/schemas/actionbox-cloud/actionbox-cloud-passkey-input/)
+- [PasskeyRegistrationInput](https://apis.io/schemas/actionbox-cloud/actionbox-cloud-passkey-registration-input/)
+- [ProductFeedbackCreate](https://apis.io/schemas/actionbox-cloud/actionbox-cloud-product-feedback-create/)
 - [ResolveRequest](https://apis.io/schemas/actionbox-cloud/actionbox-cloud-resolve-request/)
-- [UserWatchCreate](https://apis.io/schemas/actionbox-cloud/actionbox-cloud-user-watch-create/)
+- [RouteInput](https://apis.io/schemas/actionbox-cloud/actionbox-cloud-route-input/)
+- …and 7 more published on APIs.io
 
 #### JSON-LD (1)
 
@@ -129,27 +155,27 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Actionbox Cloud Authentication](https://apis.io/security/actionbox-cloud/actionbox-cloud-authentication/)
-- [Actionbox Cloud Domain Security](https://apis.io/security/actionbox-cloud/actionbox-cloud-domain-security/)
-- [Actionbox Cloud Vulnerability Disclosure](https://apis.io/security/actionbox-cloud/actionbox-cloud-vulnerability-disclosure/)
+- [actionbox-cloud Authentication](https://apis.io/security/actionbox-cloud/actionbox-cloud-authentication/)
+- [actionbox-cloud Domain Security](https://apis.io/security/actionbox-cloud/actionbox-cloud-domain-security/)
+- [actionbox-cloud Vulnerability Disclosure](https://apis.io/security/actionbox-cloud/actionbox-cloud-vulnerability-disclosure/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Actionbox Cloud Scopes](https://apis.io/scopes/actionbox-cloud/actionbox-cloud-scopes/)
+- [actionbox-cloud Scopes](https://apis.io/scopes/actionbox-cloud/actionbox-cloud-scopes/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Actionbox Cloud Plans Pricing](https://apis.io/plans/actionbox-cloud/actionbox-cloud-plans-pricing/)
+- [actionbox-cloud Plans Pricing](https://apis.io/plans/actionbox-cloud/actionbox-cloud-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Actionbox Cloud Rate Limits](https://apis.io/rate-limits/actionbox-cloud/actionbox-cloud-rate-limits/)
+- [actionbox-cloud Rate Limits](https://apis.io/rate-limits/actionbox-cloud/actionbox-cloud-rate-limits/)
 
 ## Where to find this API
 
@@ -168,23 +194,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 60.2** — strong · rubric 0.25.0 · scored 2026-10-30
+**Kin Score 60.8** — strong · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
-| Contract quality | 56.2 |
-| Contract governance | 79.1 |
-| Operational transparency | 34.2 |
+| Discoverability | 81.7 |
+| Contract quality | 59.3 |
+| Contract governance | 35.6 |
+| Operational transparency | 31.0 |
 | Developer ergonomics | 80.2 |
-| Access clarity | 31.6 |
+| Access clarity | 40.4 |
 
-**Agent readiness 60.1** — agent-native
+**Agent readiness 54.7** — agent-native
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | served (partial credit) |
@@ -204,6 +230,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 37.3** — Horizontal (data, software, accessibility, platform)
 
